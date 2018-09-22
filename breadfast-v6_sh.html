@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breadfast.Club</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+    <style>
+
+    nav.navbar-default.navbar {
+       background:#2699FB; 
+       color: white;
+       font-family: 'PT Sans', sans-serif, 14px;
+        }
+
+
+      .nav navbar-nav {
+      color:white; 
+      }
+
+
+    footer.navbar-default.navbar-fluid-bottom {
+      background:#2699FB;
+      color:white;
+      padding:2em 0;
+      font-family: 'PT Sans', sans-serif, 14px;
+ }
+
+    footer.navbar-default.navbar-fluid-bottom p {
+      margin:0;
+ }
+
+     
+    /* Colorcoding on request change navbar-default to light
+
+     .navbar {
+      background-color: darkblue;
+     }
+
+    */
+
+    body {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+
+    .pageslp{
+    padding-top:50px;
+    height:700px; 
+    background-color:rgb(61, 207, 207);      
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    }
+
+    .text{
+       padding-top: 0%;
+      text-align: center;
+      color: darkgray;
+      }
+    
+
+    #home {
+    background-color:rgb(61, 207, 207); 
+    background-image: url("https://images.unsplash.com/photo-1533782654613-826a072dd6f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=17ad9fdb81ffc5d448d5511bc5176c95&auto=format&fit=crop&w=900&q=60");      
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .homeText{
+      padding-top: 15%;
+      text-align: center;
+      }
+
+    .howToText{
+
+    }
+
+    
+    
+    /* CSS Styling for Categories (How does it work Page≈
+    @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
+    */
+
+
+.box > .icon { 
+    text-align: 
+    center; 
+    position: 
+    relative; 
+    }
+.box > .icon > .image { 
+    position: relative; 
+    z-index: 2; 
+    margin: auto; 
+    width: 88px; 
+    height: 88px; 
+    border: 8px solid white; 
+    line-height: 88px; 
+    border-radius: 50%; 
+    background: #428bca; 
+    vertical-align: middle; 
+    }
+.box > .icon > .image > i { 
+    font-size: 36px !important; 
+    color: #fff !important; 
+    }
+.box > .icon:hover > .image > i { 
+    color: white !important; 
+    }
+.box > .icon > .info { 
+    margin-top: -24px; 
+    background: rgba(0, 0, 0, 0.04); 
+    border: 1px solid #e0e0e0; 
+    padding: 15px 0 10px 0; 
+    }
+.box > .icon > .info > h3.title { 
+    font-family: sans-serif !important; 
+    font-size: 16px; 
+    color: #222; 
+    font-weight: 500; 
+    }
+.box > .icon > .info > p { 
+    font-family: sans-serif !important; 
+    font-size: 13px; 
+    color: #666; 
+    line-height: 1.5em; 
+    margin: 20px;
+    }
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { 
+    color: #222; 
+    }
+.box > .icon > .info > .more a { 
+    font-family: sans-serif !important; 
+    font-size: 12px; 
+    color: #222; 
+    line-height: 12px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    }
+.box > .icon:hover > .info > .more > a { 
+    color: #fff; 
+    padding: 6px 8px; 
+    background-color: #63B76C; 
+    }
+.box .space { 
+    height: 30px; 
+    }
+
+.modal-header-primary {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+    /* CSS Styling for Categories (How does it work Page >>End here
+    @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
+    */
+
+#diamond {
+position:absolute;  
+z-index:auto;  
+}
+#spade {
+position:absolute;  
+z-index:1;  
+left:125px;  
+top:125px;  
+}
+#club {
+position:absolute;  
+z-index:2;  
+left:250px;  
+top:250px;  
+}
+    </style>
+
+</head>
+<!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-default navbar-fixed-top " >
+
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Breadfast.Club</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#howTo">How does it work?</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#partners">Partners</a></li>
+        </ul>
+
+
+
+        <ul class="nav navbar-nav navbar-right">
+            <li> <a href="#">Checkout <i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+        <form class="navbar-form navbar-right " role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button> 
+        </form>
+
+        
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+
+  </nav>
+
+
+  <div id="home" class="container-fluid pageslp ">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="content homeText">
+            <h1 class="text">BREADFAST.CLUB</h1>
+            <h3 class ="text">Get the best bread from your neighbourhood delivered to your doorstep</h3>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <hr>
+
+
+  <div id="howTo" class="container-fluid pageslp ">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="content homeText">
+            <h1 class="text">How to Does it Work?</h1>
+            <h3 class ="text">Order in Three steps</h3>
+          </div>
+
+
+          <!-- How it Works Section Graphic-->
+            <div class="container">
+                  <!-- row 3 -->
+                  <div class="row">
+      
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <!-- Boxes de Acoes -->
+                            <div class="box">							
+                              <div class="icon">
+                                <div class="image"><i class="fa fa-soundcloud"></i></div>
+                                <div class="info">
+                              
+                                  <h3 class="title">Client Reports</h3>
+      
+                                  <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                                  </p>
+                            
+                    
+                                </div>
+                              </div>
+                            </div>
+                            <div class="space"></div>
+                      </div>
+      
+      
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                          <!-- Boxes de Acoes -->
+                                <div class="box">							
+                                  <div class="icon">
+                                    <div class="image"><i class="fa fa-soundcloud"></i></div>
+                                    <div class="info">
+                                  
+                                      <h3 class="title">Client Reports</h3>
+        
+                                      <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                                      </p>
+                                
+                        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="space"></div>
+                        </div>
+      
+      
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <!-- Boxes de Acoes -->
+                                <div class="box">							
+                                  <div class="icon">
+                                    <div class="image"><i class="fa fa-soundcloud"></i></div>
+                                    <div class="info">
+                                  
+                                      <h3 class="title">Client Reports</h3>
+        
+                                      <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                                      </p>
+                                
+                        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="space"></div>
+                          </div>
+                </div>
+              </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+  <hr>
+
+<div id="products" class="container-fluid pageslp ">
+  <div class="row">
+
+  <div id="container">  
+  <div id="sidebar"></div>
+  <div id="content">
+    <div id="diamond"><img src="diamond.png" width="500" height="500" /></div>
+    <div id="spade"><img src="spade.png" width="500" height="500" /></div>
+    <div id="club"><img src="club.png" width="500" height="500" /></div>
+  </div>
+</div>  
+
+
+<!--    <div class="col-lg-12">
+      <div class="content homeText">
+        <h1 class="text">Categories of Products</h1>
+        <h3 class ="text">Bread, Sweets, Mix and Buns</h3>
+      </div>
+    </div> -->
+
+  </div>
+</div>
+
+<hr>
+
+<div id="partners" class="container-fluid pageslp ">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="content homeText">
+        <h1 class="text">Map of Partners</h1>
+        <h3 class ="text">Find our Local Partners who support us</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+<!--FOOTER-->
+
+<footer class="navbar-default navbar-fluid-bottom">
+      <div class="container">
+        <div>
+        <p>We are ready for the challenge adobexd@mail.com</p>
+      <ul class="nav navbar-nav">
+        <li><a href="#howTo">How does it work?</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li> <a href="#">Checkout <i class="fas fa-shopping-cart"></i></a></li>
+
+      </ul>
+        </div>
+
+      </div>
+</footer>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

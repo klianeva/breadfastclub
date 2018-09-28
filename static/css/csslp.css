@@ -53,6 +53,31 @@ background-size: cover;
   color: darkgray;
   }
 
+  .whitetext{
+        padding-top: 0%;
+        text-align: left;
+        color: white; 
+        margin-left: 10%;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .whitetext{
+        padding-top: 0%;
+        text-align: left;
+        color: white; 
+        margin-left: 9%;
+  }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .whitetext{
+            padding-top: 0%;
+            text-align: left;
+            color: white; 
+            margin-left: 4%;
+      }
+        }
+
 
 #home {
 background-color:rgb(61, 207, 207); 
@@ -79,9 +104,9 @@ background-size: cover;
 
 #imagefamily {
     height: 50%;
-    width: 50%;
+    right:0;
     position:absolute;
-    align: right;
+   
 
 }
 
@@ -176,14 +201,40 @@ background-size: cover;
       */
 
 
-  #productcategoryimage{
-    background-image: url("https://images.unsplash.com/photo-1533782654613-826a072dd6f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=17ad9fdb81ffc5d448d5511bc5176c95&auto=format&fit=crop&w=900&q=60");      
+
+.gradientbackground{
+    background: linear-gradient(to bottom, #FFE3BB, white);
+}
+
+  .pbackground{
+    background-color: #F1876F;
     background-position: ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: greenyellow;
-    height: 200px;
+  
+    
   }
+
+  @media only screen and (min-width: 992px) {
+    
+
+    #p1{
+        height: 600px;
+    }
+    #p2{
+        height: 500px;
+    }
+
+    #p3{
+        height: 400px;
+    }
+
+    #p4{
+        height: 550px;
+    }
+  }
+
+  
 
 
 

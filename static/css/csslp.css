@@ -200,7 +200,13 @@ background-size: cover;
       @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
       */
 
+.redtext{
+    color: #F1876F;
+    padding-top: 0%;
+    text-align: left;    
+    margin-left: 10%;
 
+}
 
 .gradientbackground{
     background: linear-gradient(to bottom, #FFE3BB, white);
@@ -219,22 +225,46 @@ background-size: cover;
     
 
     #p1{
-        height: 600px;
+        height: 480px;
     }
     #p2{
-        height: 500px;
-    }
-
-    #p3{
         height: 400px;
     }
 
-    #p4{
-        height: 550px;
+    #p3{
+        height: 360px;
     }
+
+    #p4{
+        height: 445px;
+    }
+
+    .textproductcat{
+        background: linear-gradient(to right, #A8DBF0, transparent);
+        position: relative; 
+        left: -5%;
+        padding: 5% 0% 5% 0%;
+        text-align: left;
+        color: white; 
+
   }
 
-  
+  .categorytitle{
+      padding-top: 20%;
+      z-index: 5;
+      
+      
+  }
+
+  @media only screen and (max-width: 600px) {
+    .textproductcat{
+        background: linear-gradient(to right, #A8DBF0, transparent);
+        padding: 5% 0% 5% 0%;
+        text-align: left;
+        color: white; 
+        }
+  }
+
 
 
 
@@ -247,3 +277,5 @@ padding-bottom: 3%;
 #map {
  height: 400px; 
 }
+
+

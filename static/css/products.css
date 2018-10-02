@@ -31,7 +31,7 @@ body {
 }
 
 .pageslp {
-    background-color: rgb(61, 207, 207);
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,31 +44,16 @@ body {
 }
 
 .box > .icon {
+
     text-align: center;
     position: relative;
-}
+    margin-top: 10%;
+    background-color: white;
+    border: solid 1px;
+    border-color: grey;
+    box-shadow: 1px 1px grey;
 
-.box > .icon > .image {
-    position: relative;
-    z-index: 2;
-    margin: auto;
-    width: 88px;
-    height: 88px;
-    border: 8px solid white;
-    line-height: 88px;
-    border-radius: 50%;
-    background: #428bca;
-    vertical-align: middle;
-}
 
-.box > .icon > .image > i {
-    font-size: 36px !important;
-    color: #fff !important;
-}
-
-.box > .icon:hover > .image > i {
-    color: white !important;
-}
 
 .box > .icon > .info {
     margin-top: -24px;

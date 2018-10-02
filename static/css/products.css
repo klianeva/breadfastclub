@@ -1,5 +1,5 @@
 nav.navbar-default.navbar {
-    background: #2699FB;
+    background: #F1876F;
     color: white;
     font-family: 'PT Sans', sans-serif, 14px;
 }
@@ -8,8 +8,23 @@ nav.navbar-default.navbar {
     color: white;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-brand{
+    padding-top:6px;
+}
+
+#logoNav{
+    position: relative;
+    height:40px;
+    width: 40px;
+    float: right;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+}
 footer.navbar-default.navbar-fluid-bottom {
-    background: #2699FB;
+    background: #F1876F;
     color: white;
     padding: 2em 0;
     font-family: 'PT Sans', sans-serif, 14px;
@@ -51,7 +66,8 @@ body {
     background-color: white;
     border: solid 1px;
     border-color: grey;
-    box-shadow: 1px 1px grey;
+    box-shadow: 0px 3px #000000,16%;
+
 
 
 

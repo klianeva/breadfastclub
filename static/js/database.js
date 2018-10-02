@@ -9,7 +9,10 @@ var config = {
 
 firebase.initializeApp(config);
 
+
 var db = firebase.firestore();
+
+ 
 db.settings({ timestampsInSnapshots: true });
 
 db.collection("products").get().then(function(querySnapshot) {
@@ -21,6 +24,7 @@ db.collection("products").get().then(function(querySnapshot) {
         categories[data.category].push(data);
     });
 
+
     for (var category in categories) {
         var productshtml = "";
 
@@ -29,7 +33,8 @@ db.collection("products").get().then(function(querySnapshot) {
               <div class="box ">
                 <div class="icon">
                   <div id="productcategoryimage">
-                    <h3 class="title text">${p.name}</h3>
+                  <h3 class="title text">${p.name}</h3>
+                  <img src="${p.photo}" width="100%" height="100%" style="padding-bottom:10%;" >   
                   </div>
                 </div>
               </div>

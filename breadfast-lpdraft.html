@@ -69,7 +69,7 @@
         <div class="col-lg-12">
           <div class="content homeText">
             <h1 class="whitetext">BREADFAST.CLUB</h1>
-            <h3 class ="whitetext">Get the best bread from your neighbourhood delivered to your doorstep</h3>
+            <h3 class ="whitetext ">Get the best bread from your neighbourhood delivered to your doorstep</h3>
           </div>
         </div>
       </div>
@@ -263,8 +263,8 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="content">
-        <h1 class="text">Our Partners</h1>
-        <h3 class ="text">Find our Local Partners who support us</h3>
+        <h1 class="redtext">Our Partners</h1>
+        <h3 class ="redtext">Find our Local Partners who support us</h3>
 
         <div id="map"></div>
 
@@ -274,7 +274,18 @@
   </div>
 </div>
 
+<!--Map-->
+<script>
+  var map = L.map('map').setView([13.399670,52.499629], 13);
 
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  L.marker([51.5, -0.09]).addTo(map)
+    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    .openPopup();
+</script>
 
 
 

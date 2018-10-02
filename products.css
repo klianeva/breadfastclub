@@ -38,7 +38,7 @@ body {
 }
 
 .text {
-    padding-top: 0%;
+    padding-top: 10%;
     text-align: center;
     color: darkgray;
 }
@@ -117,6 +117,7 @@ body {
 
 .box .space {
     height: 30px;
+
 }
 
 .modal-header-primary {
@@ -131,6 +132,10 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+
+
+
 
 /* CSS Styling for Categories (How does it work Page >>End here
 @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"

@@ -38,15 +38,11 @@ body {
 }
 
 .text {
-    padding-top: 0%;
+    padding-top: 2%;
     text-align: center;
     color: darkgray;
 }
 
-/* CSS Styling for Categories (How does it work Page≈
-@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
-*/
 .box > .icon {
     text-align: center;
     position: relative;
@@ -143,4 +139,6 @@ body {
     background-size: cover;
     background-color: greenyellow;
     height: 200px;
+    margin-bottom: 5%;
+
 }

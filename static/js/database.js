@@ -34,7 +34,7 @@ db.collection("products").get().then(function(querySnapshot) {
                 <div class="icon">
                   <div id="productcategoryimage">
                   <h3 class="title text">${p.name}</h3>
-                  <img src="${p.photo}" width="200px" " style="z-index:10";position:relative;">   
+                  <img src="${p.photo}" style= "width:200px; padding-bottom:20px; padding-top:10px; z-index:10; position:relative;">   
                   </div>
                 </div>
               </div>

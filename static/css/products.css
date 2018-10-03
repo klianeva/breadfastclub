@@ -68,7 +68,7 @@ body {
     border-color: grey;
     box-shadow: 0px 3px #000000,16%;
 
-
+}
 
 
 .box > .icon > .info {
@@ -128,19 +128,47 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
-/* CSS Styling for Categories (How does it work Page >>End here
-@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
-*/
 #productcategoryimage {
   
-    background-position:;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #428bca;
     height: 200px;
     margin-bottom: 5%;
     padding-bottom: 10%; 
 
 }
+/* CSS Styling for Categories (How does it work Page >>End here
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
+*/
+
+
+.productnavbar{
+    list-style: none; 
+    background-color: rebeccapurple;
+    height: 400px;
+    width: 100px;
+    left: 10px;
+    position: fixed;
+   top: 200px;
+   float: left;
+   display: flex;  
+   flex-flow: column;
+   border: 1px solid darkgrey;
+   
+  
+}
+
+.productnavbaritems{
+    color: white;
+    list-style: none; 
+    padding: 0;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+  
+
+}
+
+
+

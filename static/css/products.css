@@ -143,11 +143,31 @@ body {
 
 
 .productnavbar{
+    list-style: none; 
     background-color: rebeccapurple;
     height: 400px;
     width: 100px;
+    left: 10px;
     position: fixed;
    top: 200px;
+   float: left;
+   display: flex;  
+   flex-flow: column;
+   border: 1px solid darkgrey;
+   
+  
+}
+
+.productnavbaritems{
+    color: white;
+    list-style: none; 
+    padding: 0;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+  
 
 }
+
+
 

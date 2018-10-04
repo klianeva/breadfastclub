@@ -28,9 +28,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#howTo">How</a></li>
-            <li><a href="#productcategory">Products</a></li>
-            <li><a href="#partners">Partners</a></li>
+            <li><a href="index.html#howTo"  >How</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="index.html">Partners</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li> <a href="#"><i class="fas fa-shopping-cart fa-lg"></i></a></li>
@@ -41,47 +41,53 @@
           </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
-
-        <hr>
         <div id="containers"></div>
         
 
         <!--Product Category Navbar -->
 
-        <div class="productnavbar">
+    <div class="productnavbar">
 
-          <div class="item">
-              <div class="inset active">
-                  <div class="img"> <img src="static/img/breadicon.png" style="height: 100%; z-index: 3"></div>
-                  <div class="name">Bread</div> 
-                  
+          <a href="#"> 
+            <div class="item">
+                <div class="inset active" > 
+                  <div class="img"> <img src="static/img/iconbread.png" style="height: 100%; width: 100%; z-index: 3"> </div>
+                  <div class="name"> <a></a>Bread</div> 
+                </div>
+            </div>
+          </a>
+
+          <a href="#Bakery Goods"> 
+            <div class="item">
+                <div class="inset">
+                    <div class="img"> <img src="static/img/icongoods.png" style="height: 100%; width: 100%; z-index: 3"></div>
+                    <div class="name"> <a></a>Baked Goods</div>
+                </div>
+            </div>
+          </a>
+
+          <a href="#Sandwich"> 
+              <div class="item">
+                  <div class="inset">
+                      <div class="img"><img src="static/img/iconsandwich.png" style="height: 100%; width: 100%; z-index: 3"></div>
+                      <div class="name"> <a></a> Sandwich</div>
+                  </div>
               </div>
-          </div>
-
+          </a>
+          
+        <a href="#Breakfast Sets"> 
           <div class="item">
               <div class="inset">
-                  <div class="img"> </div>
-                  <div class="name">Bakery Goods</div>
+                  <div class="img"><img src="static/img/iconsets.png" style="height: 100%; width: 100%; z-index: 3"></div>
+                  <div class="name"> <a></a> Bakery Sets</div>
               </div>
           </div>
+        </a>
 
-          <div class="item">
-              <div class="inset">
-                  <div class="img"></div>
-                  <div class="name">Sandwich</div>
-              </div>
-          </div>
-
-          <div class="item">
-              <div class="inset">
-                  <div class="img"></div>
-                  <div class="name">Breakfast Sets</div>
-              </div>
-          </div>
-  </div>
+    </div>
 
 
-
+        <!--Basket-->
         <div style="position: fixed; bottom:10px; right: 2%;">
           <img src="static/img/basket.png" style="width: 100px; height: 100px;">
         </div>

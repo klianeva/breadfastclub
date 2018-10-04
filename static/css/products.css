@@ -42,8 +42,10 @@ background-color: darkblue;
 body {
     background-size: cover;
     background-position: center;
+    padding-top: 48px;
     background-repeat: no-repeat;
 }
+
 
 .pageslp {
     background-color: white;
@@ -52,21 +54,25 @@ body {
     background-size: cover;
 }
 
-.text {
-    padding-top: 2%;
+.content > .text {
+    padding: 1%;
+    text-align: left
     text-align: center;
-    color: darkgray;
+    color: white;
+
+    
 }
 
 .box > .icon {
 
     text-align: center;
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 15%;
+    margin-bottom: 30%;
     background-color: white;
     border: 1px solid darkgrey;
-   box-shadow: 0 0 4px 0.1px rgb(107, 107, 107);
+    box-shadow: 0 0 4px 0.1px rgba(107, 107, 107, 0.3);
    color: #F1876F;
 
 }
@@ -156,7 +162,8 @@ body {
    display: flex;  
    flex-flow: column;
    border: 1px solid darkgrey;
-   box-shadow: 0 0 4px 0.1px rgb(107, 107, 107);
+   box-shadow: 0 0 4px 0.1px rgba(107, 107, 107, 0.3);
+
    z-index: 50;
    color: #F1876F;
    
@@ -207,7 +214,18 @@ body {
     margin: 10px;
     height: 100px;
     text-align: center;
-  
+}
+
+.backgroundgradient{
+background: linear-gradient(to bottom, white, #FEE2BD);
+
+}
+
+.textgradient {
+background: linear-gradient(to right, #A8DBF0, #F1876F);
+margin-left: 140px;
+width: 80%;
+border-top-right-radius:40px
 
 }
 

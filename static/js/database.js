@@ -42,13 +42,13 @@ db.collection("products").get().then(function(querySnapshot) {
             </div>`;
         });
 
-        $("#containers").append(`<div id="productcategory"class="container-fluid pageslp ">
-			<div class="row">
-			<div class="col-lg-12">
-			<div class="content">
-			<h1 class="text">${category}</h1>
+        $("#containers").append(`<hr id="${category}"><div  class="productcategory container-fluid pageslp ">
+			<div class="row " >
+			<div class="col-lg-12" >
+			<div class="content  backgroundgradient">
+			<h1 class="text textgradient" >${category}</h1>
 			<div class="container " >
 			<div class="row" >  ${productshtml} 
-			</div></div></div></div></div></div></div></div></div><hr>`);
+			</div></div></div></div></div></div></div></div></div>`);
     }
 });

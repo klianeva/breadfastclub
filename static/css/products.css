@@ -56,8 +56,7 @@ body {
 
 .content > .text {
     padding: 1%;
-    text-align: left
-    text-align: center;
+    text-align: left;
     color: white;
 
     
@@ -67,9 +66,7 @@ body {
 
     text-align: center;
     position: relative;
-    margin-top: 20%;
     margin-left: 15%;
-    margin-bottom: 30%;
     background-color: white;
     border: 1px solid darkgrey;
     box-shadow: 0 0 4px 0.1px rgba(107, 107, 107, 0.3);
@@ -172,8 +169,6 @@ body {
 
 .productnavbar .item .inset {
     height: 100px;
-    margin-left: 12px;
-    margin-right: 12px;
     border-bottom: 1px solid #F1876F;
     display: flex;
     flex-direction: column;
@@ -187,13 +182,14 @@ body {
 
 .productnavbar .item .inset .name {
     text-align: center;
+    margin-top: -30px;
 }
-
+/*
 .productnavbar .item .inset .img {
     width: 50px;
     height: 50px;
     
-}
+}*/
 
 .productnavbar.item.active {
     background: lightblue;
@@ -218,6 +214,7 @@ body {
 
 .backgroundgradient{
 background: linear-gradient(to bottom, white, #FEE2BD);
+padding-bottom: 5%;
 
 }
 
@@ -228,6 +225,51 @@ width: 80%;
 border-top-right-radius:40px
 
 }
+
+
+
+
+.img {
+    height: 96px; 
+    width: 96px; 
+    z-index: 3;
+   background-repeat: no-repeat;
+    background-image: url(../img/icons-bread.png);
+}
+
+.img.a{
+    background-position: 0px -10px; 
+}
+
+.img.a:hover{
+background-position: 0px -106px;
+}
+
+.img.b{
+    background-position: -96px -10px; 
+}
+
+.img.b:hover{
+background-position: -96px -106px;
+}
+
+.img.c{
+    background-position: -192px -10px; 
+}
+
+.img.c:hover{
+background-position: -192px -106px;
+}
+
+.img.d{
+    background-position: -288px -10px; 
+}
+
+.img.d:hover{
+background-position: -288px -106px;
+}
+
+
 
 
 

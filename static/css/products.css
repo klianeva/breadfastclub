@@ -54,24 +54,25 @@ body {
     background-size: cover;
 }
 
+
+
 .content > .text {
     padding: 1%;
     text-align: left;
     color: white;
-
-    
 }
 
-.box > .icon {
-
+.box. .text{
     text-align: center;
     position: relative;
     margin-left: 15%;
-    background-color: white;
-    border: 1px solid darkgrey;
-    box-shadow: 0 0 4px 0.1px rgba(107, 107, 107, 0.3);
-   color: #F1876F;
+}
 
+.box > .icon {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 
@@ -87,6 +88,7 @@ body {
     font-size: 16px;
     color: #222;
     font-weight: 500;
+    
 }
 
 .box > .icon > .info > p {
@@ -132,14 +134,21 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-#productcategoryimage {
+.roductcategoryimage {
   
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
     margin-bottom: 5%;
     padding-bottom: 10%; 
+    width: 160%;
+    position: relative;
+    left: -30%;
+    bottom: -10%;
+}
 
+.productcategory{
+    padding-right: 0;
+    padding-left: 0; 
 }
 /* CSS Styling for Categories (How does it work Page >>End here
 @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"

@@ -31,9 +31,9 @@ db.collection("products").get().then(function(querySnapshot) {
         categories[category].forEach((p) => {
             productshtml += ` <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <div class="box ">
+              <h3 class="title text">${p.name}</h3>
                 <div class="icon">
                   <div id="productcategoryimage">
-                  <h3 class="title text">${p.name}</h3>
                   <img src="${p.photo}" style= "width:200px; padding-bottom:20px; padding-top:10px; z-index:10; position:relative;">   
                   </div>
                 </div>

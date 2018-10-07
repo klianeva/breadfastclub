@@ -43,18 +43,61 @@ footer.navbar-default.navbar-fluid-bottom p {
     background-color: white;
     height: 400px;
     width: 100px;
-    left: 10px;
+    left: 30px;
     position: fixed;
-   top: 200px;
+   top: 100px;
    float: left;
    display: flex;  
    flex-flow: column;
    border: 1px solid darkgrey;
    box-shadow: 0 0 4px 0.1px rgba(107, 107, 107, 0.3);
-
    z-index: 50;
    color: #F1876F;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .productnavbar{
+        list-style: none; 
+        background-color: white;
+        height: 100px;
+        width: 400px;
+        box-align: center;
+        position: fixed;
+       top: 50px;
+       float: left;
+       display: flex;  
+       flex-flow: row;
+       border: 1px solid darkgrey;
+       box-shadow: 0 0 4px 0.1px rgba(107, 107, 107, 0.3);
+       z-index: 50;
+       color: #F1876F;
+    }
+
+    .productnavbar .item .inset {
+        height: 100px;
+        border-right: 1px solid #F1876F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productnavbar .item .inset {
+        height: 100px;
+        border-right: 1px solid #F1876F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productnavbar .item:last-child .inset {
+        border-right: 0;
+    }
+
+}
+
 
 .productnavbar .item .inset {
     height: 100px;
@@ -131,6 +174,13 @@ background-position: -288px -106px;
 
 
 /*Page Items*/
+.container {
+    margin-left: 15%;
+    width: 70%;
+    border-top-right-radius:40px
+    }
+
+
 .content > .text {
     padding: 1%;
     text-align: left;
@@ -139,6 +189,14 @@ background-position: -288px -106px;
 
 .box{
     margin:0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .box{
+    margin-left: 10%;
+    padding-left: 15%;
+    padding-bottom: 15%;
+    }
 }
 
 .box > .icon {
@@ -162,6 +220,13 @@ background-position: -288px -106px;
     padding-left: 0; 
 }
 
+
+@media only screen and (max-width: 768px) {
+    .productcategory {
+        padding-top: 100px;
+        }
+}
+
 .backgroundgradient{
 background: linear-gradient(to bottom, white, #FEE2BD);
 padding-bottom: 5%;
@@ -170,7 +235,25 @@ padding-bottom: 5%;
 .textgradient {
 background: linear-gradient(to right, #A8DBF0, #F1876F);
 margin-left: 15%;
-width: 60%;
+width: 70%;
 border-top-right-radius:40px
 }
+
+@media only screen and (max-width: 768px) {
+    .textgradient {
+    background: linear-gradient(to right, #A8DBF0, #F1876F);
+    margin-left: 30px;
+    width: 90%;
+    border-top-right-radius:40px
+    }
+}
+
+
+
+
+
+
+
+
+
 

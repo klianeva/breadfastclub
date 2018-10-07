@@ -130,20 +130,12 @@ background-position: -288px -106px;
 }
 
 
-
-
+/*Page Items*/
 .content > .text {
     padding: 1%;
     text-align: left;
     color: white;
 }
-
-
-.box. .text{
-    text-align: center;
-    position: relative;
-    margin-left: 15%;
-}   
 
 .box > .icon {
     background-color: white;
@@ -156,8 +148,6 @@ background-position: -288px -106px;
 .productcategoryimage {
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5%;
-    padding-bottom: 10%; 
     width: 160%;
     position: relative;
     left: -30%;

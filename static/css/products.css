@@ -1,3 +1,4 @@
+/* Top Navigation Bar */
 nav.navbar-default.navbar {
     background: #F1876F;
     color: white;
@@ -23,6 +24,8 @@ nav.navbar-default.navbar {
     padding: 0px 0px 0px;
     margin: 0px 0px 0px;
 }
+
+/* Footer Navbar*/
 footer.navbar-default.navbar-fluid-bottom {
     background: #F1876F;
     color: white;
@@ -34,109 +37,7 @@ footer.navbar-default.navbar-fluid-bottom p {
     margin: 0;
 }
 
-/* Colorcoding on request change navbar-default to light
-.navbar {
-background-color: darkblue;
-}
-*/
-body {
-    background-size: cover;
-    background-position: center;
-    padding-top: 48px;
-    background-repeat: no-repeat;
-}
-
-
-.pageslp {
-    background-color: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-.content > .text {
-    padding: 1%;
-    text-align: left;
-    color: white;
-}
-
-.box{
-    margin-left: 3%;
-}
-
-.box. .text{
-    text-align: center;
-    position: relative;
-    margin-left: 15%;
-}
-
-.box > .icon {
-    background-color: white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-}
-
-
-
-.box > .icon > .info > .more a {
-    font-family: sans-serif !important;
-    font-size: 12px;
-    color: #222;
-    line-height: 12px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.box > .icon:hover > .info > .more > a {
-    color: #fff;
-    padding: 6px 8px;
-    background-color: #63B76C;
-}
-
-.box .space {
-    height: 30px;
-}
-
-.modal-header-primary {
-    color: #fff;
-    padding: 9px 15px;
-    border-bottom: 1px solid #eee;
-    background-color: #428bca;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-
-.productcategoryimage {
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5%;
-    padding-bottom: 10%; 
-    width: 160%;
-    position: relative;
-    left: -30%;
-    bottom: -10%;
-}
-
-
-
-.productcategory{
-    padding-right: 0;
-    padding-left: 0; 
-}
-/* CSS Styling for Categories (How does it work Page >>End here
-@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
-*/
-
-
+/*Product Side - Navbar */
 .productnavbar{
     list-style: none; 
     background-color: white;
@@ -153,8 +54,6 @@ body {
 
    z-index: 50;
    color: #F1876F;
-   
-  
 }
 
 .productnavbar .item .inset {
@@ -176,17 +75,10 @@ body {
 }
 
 
-.productnavbar.item.active {
-    background: lightblue;
-}
-
 .productnavbar .item:not(.active):hover {
     background: #F1876F;
     color: white;
 }
-
-
-
 
 .productnavbar .items{
     color: white;
@@ -196,24 +88,6 @@ body {
     height: 100px;
     text-align: center;
 }
-
-.backgroundgradient{
-background: linear-gradient(to bottom, white, #FEE2BD);
-padding-bottom: 5%;
-
-}
-
-.textgradient {
-background: linear-gradient(to right, #A8DBF0, #F1876F);
-margin-left: 140px;
-width: 80%;
-border-top-right-radius:40px
-
-}
-
-
-
-
 
 .img {
     height: 96px; 
@@ -258,4 +132,56 @@ background-position: -288px -106px;
 
 
 
+.content > .text {
+    padding: 1%;
+    text-align: left;
+    color: white;
+}
+
+
+.box. .text{
+    text-align: center;
+    position: relative;
+    margin-left: 15%;
+}   
+
+.box > .icon {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+.productcategoryimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    padding-bottom: 10%; 
+    width: 160%;
+    position: relative;
+    left: -30%;
+    bottom: -10%;
+}
+
+
+
+.productcategory{
+    padding-right: 0;
+    padding-left: 0; 
+}
+
+
+
+.backgroundgradient{
+background: linear-gradient(to bottom, white, #FEE2BD);
+padding-bottom: 5%;
+}
+
+.textgradient {
+background: linear-gradient(to right, #A8DBF0, #F1876F);
+margin-left: 140px;
+width: 80%;
+border-top-right-radius:40px
+}
 

@@ -37,7 +37,7 @@ footer.navbar-default.navbar-fluid-bottom p {
     margin: 0;
 }
 
-/*Product Side - Navbar */
+/*Productcategory Side - Navbar */
 .productnavbar{
     list-style: none; 
     background-color: white;
@@ -137,13 +137,16 @@ background-position: -288px -106px;
     color: white;
 }
 
+.box{
+    margin:0 !important;
+}
+
 .box > .icon {
     background-color: white;
     height: 100px;
     width: 100px;
     border-radius: 50px;
 }
-
 
 .productcategoryimage {
     background-repeat: no-repeat;
@@ -154,14 +157,10 @@ background-position: -288px -106px;
     bottom: -10%;
 }
 
-
-
 .productcategory{
     padding-right: 0;
     padding-left: 0; 
 }
-
-
 
 .backgroundgradient{
 background: linear-gradient(to bottom, white, #FEE2BD);
@@ -170,8 +169,8 @@ padding-bottom: 5%;
 
 .textgradient {
 background: linear-gradient(to right, #A8DBF0, #F1876F);
-margin-left: 140px;
-width: 80%;
+margin-left: 15%;
+width: 60%;
 border-top-right-radius:40px
 }
 

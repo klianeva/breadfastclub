@@ -29,7 +29,7 @@ db.collection("products").get().then(function(querySnapshot) {
         var productshtml = "";
 
         categories[category].forEach((p) => {
-            productshtml += ` <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            productshtml += ` <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <div class="box ">
               <h3 class="title text">${p.name}</h3>
                 <div class="icon">
@@ -42,13 +42,18 @@ db.collection("products").get().then(function(querySnapshot) {
             </div>`;
         });
 
-        $("#containers").append(`<hr id="${category}"><div  class="productcategory container-fluid pageslp ">
+        $("#containers").append(`<hr id="${category}"><div  class="productcategory container-fluid ">
 			<div class="row " >
-			<div class="col-lg-12" >
-			<div class="content  backgroundgradient">
-			<h1 class="text textgradient" >${category}</h1>
-			<div class="container " >
-			<div class="row" >  ${productshtml} 
-			</div></div></div></div></div></div></div></div></div>`);
+			    <div class="col-lg-12" >
+			        <div class="content  backgroundgradient">
+			            <h1 class="text textgradient" >${category}</h1>
+			            <div class="container " >
+			                <div class="row" >  ${productshtml} 
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></div></div></div>`);
     }
 });

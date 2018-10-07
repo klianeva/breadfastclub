@@ -33,8 +33,8 @@ db.collection("products").get().then(function(querySnapshot) {
               <div class="box ">
               <h3 class="title text">${p.name}</h3>
                 <div class="icon">
-                  <div id="productcategoryimage">
-                  <img src="${p.photo}" style= "width:200px; padding-bottom:20px; padding-top:10px; z-index:10; position:relative;">   
+                  <div class="productcategoryimage">
+                  <img src="${p.photo}" style =" width:200px; z-index:10; position:relative; margin-left: -12%; margin-top: -8%;" >   
                   </div>
                 </div>
               </div>

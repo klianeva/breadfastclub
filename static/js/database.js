@@ -43,6 +43,7 @@ db.collection("products").get().then(function(querySnapshot) {
         });
 
         $("#containers").append(`<hr id="${category}"><div  class="productcategory container-fluid ">
+            <div class="backgroundimage"> ${background}
 			<div class="row " >
 			    <div class="col-lg-12" >
 			        <div class="content  backgroundgradient">
